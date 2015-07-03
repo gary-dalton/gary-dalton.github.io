@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Code7: Graph Paper Programing</title>
+
+<meta name="description" content="Code7: Graph Paper Programing">
+
+  <meta name="author" content="Gary Dalton" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/reveal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/beige.css" id="theme">
+
+
+<!-- For syntax highlighting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/css/zenburn.css">
+
+
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+  document.write( '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/print/' +
+    ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
+    '.css" type="text/css" media="print">' );
+</script>
+
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+<section>
+<h1>Code7: Graph Paper Programing</h1>
+<h3>Gary Dalton</h3>
+<p>
+<h4>July 2, 2015</h4>
+</p>
+</section>
+
+
+<section id="section" class="level1">
+<h1></h1>
+<iframe data-autoplay width="800" height="600" allowfullscreen src="http://www.youtube.com/embed/4e3fi_ls8CA">
+</iframe>
+</section>
+<section id="objective" class="level1">
+<h1>Objective</h1>
+<ul>
+<li>Understand the difficulty of translating real problems into programs</li>
+<li>Learn that ideas may feel clear to them, and still be misinterpreted by a computer</li>
+<li>Realize the need for formal programming structures like loops and functions</li>
+</ul>
+</section>
+<section id="materials" class="level1">
+<h1>Materials</h1>
+<ul>
+<li>Sample Drawings/Algorithms Kit</li>
+<li>Programming Instructions Card</li>
+<li>Large grid graph paper</li>
+<li>Markers, pens, or pencils (two or three colors)</li>
+</ul>
+</section>
+<section id="vocabulary" class="level1">
+<h1>Vocabulary</h1>
+<section id="algorithm" class="level2">
+<h2>Algorithm</h2>
+<p>A series of instructions on how to accomplish a task</p>
+</section>
+<section id="coding" class="level2">
+<h2>Coding</h2>
+<p>Transforming actions into a symbolic language</p>
+</section>
+<section id="debugging" class="level2">
+<h2>Debugging</h2>
+<p>Finding and fixing problems in code</p>
+</section>
+<section id="function" class="level2">
+<h2>Function</h2>
+<p>A piece of code that can be called over and over</p>
+</section>
+<section id="parameters" class="level2">
+<h2>Parameters</h2>
+<p>Extra bits of information that you can pass into a function to customize it</p>
+</section>
+<section id="section-1" class="level2">
+<h2></h2>
+<ul>
+<li>Algorithm: A series of instructions on how to accomplish a task</li>
+<li>Coding: Transforming actions into a symbolic language</li>
+<li>Debugging: Finding and fixing problems in code</li>
+<li>Function: A piece of code that can be called over and over</li>
+<li>Parameters: Extra bits of information that you can pass into a function</li>
+</ul>
+</section>
+</section>
+<section id="review-and-extend" class="level1">
+<h1>Review and Extend</h1>
+<section id="section-2" class="level2">
+<h2></h2>
+<ul>
+<li>Can you name any of the steps of computational thinking?</li>
+<li>Can you remember any of the patterns we found among the monsters?</li>
+<li>What else could we describe with the same “abstracted” concepts from the monsters?</li>
+</ul>
+</section>
+<section id="section-3" class="level2">
+<h2></h2>
+<ul>
+<li>Could we describe a cow? A bird?</li>
+<li>Would anything have to change to describe a teapot?</li>
+<li>Does a robot really “understand” what people say?</li>
+</ul>
+</section>
+</section>
+<section id="section-4" class="level1">
+<h1></h1>
+<figure>
+<img src="https://photos-4.dropbox.com/t/2/AAA0a2OJsepqiG0MOORUJESIhxz4BEJLK3l-9tNsG780BA/12/16242491/jpeg/32x32/1/1435892400/0/2/stage5key.jpg/CLuu3wcgASACIAMgBCAFIAYgBygBKAI/YQ5N9GUtTKQh45twkerBk7ylwtycqsOOZscXl2OKetE?size=1024x768&amp;size_mode=2" alt="Programming Key" /><figcaption>Programming Key</figcaption>
+</figure>
+</section>
+<section id="example" class="level1">
+<h1>Example</h1>
+<section id="section-5" class="level2">
+<h2></h2>
+<figure>
+<img src="https://photos-3.dropbox.com/t/2/AADdnXaaxDohwMqU9fZQTCnHgp2QOWAm3epMKTrn0D9J0Q/12/16242491/jpeg/32x32/1/1435892400/0/2/stage5ex.jpg/CLuu3wcgASACIAMgBCAFIAYgBygBKAI/SJ5Nt8CmYa0v7xyeYpuc_epBKXCb_ufIjKt5ykLXkyk?size=1024x768&amp;size_mode=2" alt="" />
+</figure>
+</section>
+<section id="algorithm-words" class="level2">
+<h2>Algorithm words</h2>
+<ul>
+<li>move forward, fill-in, move forward, move down</li>
+<li>back, back</li>
+<li>fill-in, move forward, move forward, fill-in, move down</li>
+<li>back, back</li>
+<li>move forward, fill-in, move forward</li>
+</ul>
+</section>
+<section id="section-6" class="level2">
+<h2></h2>
+<figure>
+<img src="https://photos-5.dropbox.com/t/2/AADWlibZPnOsX9729N7V3Ax0b64Cp1pGqVIFLCafHkaRhw/12/16242491/jpeg/32x32/1/1435892400/0/2/stage5excode.jpg/CLuu3wcgASACIAMgBCAFIAYgBygBKAI/-dAGGkgZE-fWgYd5dT7DobVClVjKFSfUpq0zQuXmeII?size=1024x768&amp;size_mode=2" alt="Algorithm arrows and lines" /><figcaption>Algorithm arrows and lines</figcaption>
+</figure>
+</section>
+<section id="find-something-better" class="level2">
+<h2>Find something better?</h2>
+<p><img src="https://photos-3.dropbox.com/t/2/AADdnXaaxDohwMqU9fZQTCnHgp2QOWAm3epMKTrn0D9J0Q/12/16242491/jpeg/32x32/1/1435892400/0/2/stage5ex.jpg/CLuu3wcgASACIAMgBCAFIAYgBygBKAI/SJ5Nt8CmYa0v7xyeYpuc_epBKXCb_ufIjKt5ykLXkyk?size=1024x768&amp;size_mode=2" alt="" /> | <img src="https://photos-5.dropbox.com/t/2/AADWlibZPnOsX9729N7V3Ax0b64Cp1pGqVIFLCafHkaRhw/12/16242491/jpeg/32x32/1/1435892400/0/2/stage5excode.jpg/CLuu3wcgASACIAMgBCAFIAYgBygBKAI/-dAGGkgZE-fWgYd5dT7DobVClVjKFSfUpq0zQuXmeII?size=1024x768&amp;size_mode=2" alt="" /></p>
+</section>
+</section>
+<section id="repeats" class="level1">
+<h1>Repeats</h1>
+<section id="section-7" class="level2">
+<h2></h2>
+<p>Can you think of an easier way to notate <em>back, back, back</em> or <em>move forward and fill 5 times</em>?</p>
+</section>
+<section id="section-8" class="level2">
+<h2></h2>
+<p>Look at these “functions.” What do you suppose they do?</p>
+<figure>
+<img src="https://photos-2.dropbox.com/t/2/AADJVBtNfvIPkX75gUfgQDvhXSvB8AIUt_iS6WklJnQwgQ/12/16242491/jpeg/32x32/1/1435892400/0/2/stage5repeats.jpg/CLuu3wcgASACIAMgBCAFIAYgBygBKAI/PEnawRm4btBQILlHUveEf8743PVLMy2HEV8637VNUBI?size=1024x768&amp;size_mode=2" alt="" />
+</figure>
+</section>
+<section id="answers" class="level2">
+<h2>Answers</h2>
+<ol type="1">
+<li>Move forward six spaces</li>
+<li>Color 6 blocks in a row</li>
+<li>Color a diagonal line</li>
+</ol>
+</section>
+</section>
+<section id="activity" class="level1">
+<h1>Activity</h1>
+<ol type="1">
+<li>Write a program for a medium size image</li>
+<li>Exchange your program with another coder</li>
+<li>Draw the image from the program</li>
+<li>Verify the image with the original coder</li>
+<li>Repeat steps 1-4 with a large size image</li>
+</ol>
+</section>
+<section id="wrap-up" class="level1">
+<h1>Wrap up</h1>
+<section id="objectives" class="level2">
+<h2>Objectives</h2>
+<ul>
+<li>Understand the difficulty of translating real problems into programs</li>
+<li>Learn that ideas may feel clear to them, and still be misinterpreted by a computer</li>
+<li>Realize the need for formal programming structures like loops and functions</li>
+</ul>
+</section>
+<section id="vocabulary-1" class="level2">
+<h2>Vocabulary</h2>
+<ul>
+<li><em>Algorithm</em>: A series of instructions on how to accomplish a task</li>
+<li><em>Coding</em>: Transforming actions into a symbolic language</li>
+<li><em>Debugging</em>: Finding and fixing problems in code</li>
+<li><em>Function</em>: A piece of code that can be called over and over</li>
+<li><em>Parameters</em>: Extra bits of information that you can pass into a function</li>
+</ul>
+</section>
+<section id="mark-stages-3-and-4-as-complete-on-code.org" class="level2">
+<h2>Mark Stages 3 and 4 as complete on code.org</h2>
+</section>
+</section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/head.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.js"></script>
+
+<script>
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: false,
+
+  // available themes are in /css/theme
+      theme: Reveal.getQueryHash().theme || 'beige',
+  
+  // default/cube/page/concave/zoom/linear/fade/none
+      transition: Reveal.getQueryHash().transition || 'concave',
+  
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    // { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+  });
+
+</script>
+
+</body>
+</html>
