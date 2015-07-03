@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html$if(lang)$ lang="$lang$"$endif$>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -7,17 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
     <meta name="description" content="GGIS on Github : Organization Pages for Gary Dalton and GGIS">
 
-          <meta name="author" content="author: Gary Dalton">
-              <title>title: GGIS on Github</title>
+    $for(author-meta)$
+      <meta name="author" content="$author-meta$">
+    $endfor$
+    $if(date-meta)$
+      <meta name="dcterms.date" content="$date-meta$">
+    $endif$
+      <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
       <style type="text/css">code{white-space: pre;}</style>
       <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
       <![endif]-->
-                  <link rel="stylesheet" href="stylesheets/stylesheet.css">
-            </head>
+    $if(quotes)$
+      <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
+    $endif$
+    $if(highlighting-css)$
+      <style type="text/css">
+    $highlighting-css$
+      </style>
+    $endif$
+    $for(css)$
+      <link rel="stylesheet" href="$css$">
+    $endfor$
+    $if(math)$
+      $math$
+    $endif$
+    $for(header-includes)$
+      $header-includes$
+    $endfor$
+</head>
 
 <body>
-    
+    $for(include-before)$
+        $include-before$
+    $endfor$
+
     <div id="header_wrap" class="outer">
     <header class="inner">
         <a id="forkme_banner" href="https://github.com/gary-dalton">View on GitHub</a>
@@ -28,26 +52,16 @@
 
     <div id="main_content_wrap" class="outer">
     <section id="main_content" class="inner">
-                <section id="welcome" class="level1">
-<h1>Welcome</h1>
-<p>From here you will find links to various project pages and an overview of GGIS activities.</p>
-<section id="who" class="level3">
-<h3>Who</h3>
-<p>I have been coding for many years, mostly in the scientific programming arena. My currently preferred language is Python.</p>
-<figure>
-<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c141.41.517.517/s160x160/405574_10200638271711285_451453026_n.jpg?oh=dffa9f39bd97ecda2fe3e72cc380e74c&amp;oe=561D0596&amp;__gda__=1446282714_cd33706f6c028055f2251032b4e4ba2c" alt="" />
-</figure>
-</section>
-</section>
-<section id="code7" class="level1">
-<h1>Code7</h1>
-<p>Slideshows and other resources that extend the <a href="http://code.org">code.org</a> 20 hour courses.</p>
-<ul>
-<li><a href="http://gary-dalton.github.io/code7">Project page</a></li>
-<li><a href="http://gary-dalton.github.io/code7/code7_stage5.html">Stage 5</a></li>
-</ul>
-</section>
-            </section>
+        $if(toc)$
+        <nav id="$idprefix$TOC">
+        $toc$
+        </nav>
+        $endif$
+        $body$
+        $for(include-after)$
+        $include-after$
+        $endfor$
+    </section>
     </div>
 
     <!-- FOOTER  -->
