@@ -1,6 +1,18 @@
-% title: GGIS on Github
-% author: Gary Dalton
-% updated: July 3, 2015
+---
+title: GGIS on Github
+subtitle: Organization Pages for Gary Dalton and GGIS
+author: Gary Dalton
+date: 7 July 2015
+github:
+  user: gary-dalton
+  repo: gary-dalton.github.io
+  branch: "master"
+framework: minimal
+mode: selfcontained
+css: stylesheets/stylesheet.css
+pandoc: pandoc -t html5 --standalone --section-divs --template=template_github.html index.md -o index.html
+
+---
 
 # Welcome
 
@@ -18,4 +30,6 @@ I have been coding for many years, mostly in the scientific programming arena. M
 Slideshows and other resources that extend the [code.org](http://code.org) 20 hour courses.
 
 - [Project page](http://gary-dalton.github.io/code7)
-- [Stage 5](http://gary-dalton.github.io/code7/code7_stage5.html)
+- [Stage 4](http://gary-dalton.github.io/code7/code7_stage4.html)
+- [Stage 6](http://gary-dalton.github.io/code7/code7_stage6.html)
+- [Stage 8](http://gary-dalton.github.io/code7/code7_stage8.html)

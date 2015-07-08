@@ -44,9 +44,15 @@
 
     <div id="header_wrap" class="outer">
     <header class="inner">
-        <a id="forkme_banner" href="https://github.com/gary-dalton">View on GitHub</a>
-        <h1 id="project_title">GGIS on Github</h1>
-        <h2 id="project_tagline">Organization Pages for Gary Dalton and GGIS</h2>
+        $if(github.user)$
+        <a id="forkme_banner" href="https://github.com/$github.user$$if(github.repo)$/$github.repo$$endif$$if(github.branch)$/tree/$github.branch$$endif$">View on GitHub</a>
+        $endif$
+        $if(title)$
+        <h1 id="project_title">$title$</h1>
+        $endif$
+        $if(subtitle)$
+        <h3 id="project_tagline">$subtitle$</h3>
+        $endif$
     </header>
     </div>
 
