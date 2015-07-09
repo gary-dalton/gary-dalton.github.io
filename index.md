@@ -8,7 +8,6 @@ github:
   repo: gary-dalton.github.io
   branch: "master"
 framework: minimal
-mode: selfcontained
 css: stylesheets/stylesheet.css
 pandoc: pandoc -t html5 --standalone --section-divs --template=template_github.html index.md -o index.html
 

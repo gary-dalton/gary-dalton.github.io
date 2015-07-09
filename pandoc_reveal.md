@@ -2,15 +2,45 @@
 title: Pandoc and Reveal
 subtitle: Slideshows from Markdown
 author: Gary Dalton
-date: July 3, 2015
+date: 8 July 2015
 github:
-    user: gary-dalton
-    repo: code7
-    branch: "gh-pages"
-theme: sky
+  user: gary-dalton
+  repo: gary-dalton.github.io
+  branch: "master"
+css: stylesheets/stylesheet.css
+pandoc: pandoc -t html5 --standalone --section-divs --template=templatecdn_revealjs.html pandoc_reveal.md -o pandoc_reveal.html
+theme: night
 transition: concave
+tags: pandoc, revealjs, markdown, howto
 
 ---
+#
+
+1. This slideshow is written in Markdown, a plain text format.
+    - [view the slideshow in markdown](https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/pandoc_reveal.md)
+2. Converted into an HTML5 document using Pandoc.
+3. Pandoc uses a template to convert the Markdown to HTML5.
+4. The HTML5 document is automatically formatted for use with and linked to reveal.js by the template.
+5. Reveal is a feature-rich javascript library that displays the slideshow.
+
+Yes, it really is that easy.
+
+# Markdown
+
+## Plain text, formatted
+
+Markdown is plain text with formatting syntax designed so that it can be converted to HTML and many other formats. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
+
+## Learn more
+
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Markdown Basics](https://help.github.com/articles/markdown-basics/)
+- [Markdown Tutorial](http://markdowntutorial.com/)
+
+## What software is needed?
+
+- Markdown may be created using any plain text editor. If you are doing a lot a plain text work, a good text editor is a must.
+- My favorite is the free and open source [Atom](https://atom.io/).
 
 # Pandoc
 
@@ -41,13 +71,36 @@ Output to PDF requires LaTeX.
 
 # Run Pandoc
 
-`pandoc -t html5 --template=templatecdn-revealjs.html --standalone --section-divs  pandoc_reveal.md -o pandoc_reveal.html`
+## Command line
 
-`pandoc -t html5 --standalone --section-divs --template=template.html --css=stylesheets/stylesheet.css   input.md -o output.html`
+Pandoc is run from the command line. This is not a tutorial on how to use the command line. If you are unsure of your command line skills, try one of the many excellent tutorials available though a [Google search](https://www.google.com/search?q=comand%20line%20tutorial).
 
-pandoc -t html5 --standalone --section-divs --template=template_github.html --css=stylesheets/stylesheet.css   index.md -o index.html
+I happen to be running this via Windows PowerShell but the commands are identical to a Linux BASH.
 
-pandoc -t html5 --template=templatecdn-revealjs.html --standalone --section-divs --variable theme="beige" --variable transition="concave" code7_stage5.md -o code7_stage5.html
+## Commands to create this slideshow are:
+
+    cd my_working_directory
+    pandoc -t html5 --template=templatecdn_revealjs.html --standalone --section-divs  pandoc_reveal.md -o pandoc_reveal.html
+
+Pandoc has many options, see `pandoc --help`.
+
+## Let's break it down
+
+- **cd my_working_directory**: Change directory to my_working_directory. my_working_directory is where my files and templates are stored.
+
+- **pandoc arguments**: Calls Pandoc with the specified arguments
+
+## Arguments
+
+- **-t FORMAT**: Specify the output FORMAT as HTML5
+- **--template=FILE**: Selects the conversion template as templatecdn_revealjs.html. (More on this later)
+- **--standalone**: Produce output with an appropriate header and footer and not just a snippet
+
+## More arguments
+
+- **--section-divs**: For HTML5 it wraps sections in `<section>` tags
+- **pandoc_reveal.md**: This is the input file. Its format is automatically determined from the file extension
+- **-o FILE**: Write output to the FILE pandoc_reveal.html
 
 # In the evening
 

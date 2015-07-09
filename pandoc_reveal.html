@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Pandoc and Reveal</title>
+
+<meta name="description" content="Pandoc and Reveal">
+
+  <meta name="author" content="Gary Dalton" />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/reveal.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/night.css" id="theme">
+
+
+<!-- For syntax highlighting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/css/zenburn.css">
+
+
+<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+<script>
+  document.write( '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/print/' +
+    ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
+    '.css" type="text/css" media="print">' );
+</script>
+
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+
+<section>
+<h1>Pandoc and Reveal</h1>
+<h2>Slideshows from Markdown</h2>
+<h3>Gary Dalton</h3>
+<p>
+<h4>8 July 2015</h4>
+</p>
+
+<a href="https://github.com/gary-dalton/gary-dalton.github.io/tree/master">
+Fork on GitHub
+ </a>
+</section>
+
+
+<section id="section" class="level1">
+<h1></h1>
+<ol type="1">
+<li>This slideshow is written in Markdown, a plain text format.
+<ul>
+<li><a href="https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/pandoc_reveal.md">view the slideshow in markdown</a>.</li>
+</ul></li>
+<li>Converted into an HTML5 document using Pandoc.</li>
+<li>Pandoc uses a template to convert the Markdown to HTML5.</li>
+<li>The HTML5 document is automatically formatted for use with and linked to reveal.js by the template.</li>
+<li>Reveal is a feature-rich javascript library that displays the slideshow.</li>
+</ol>
+<p>Yes, it really is that easy.</p>
+</section>
+<section id="markdown" class="level1">
+<h1>Markdown</h1>
+<section id="plain-text-formatted" class="level2">
+<h2>Plain text, formatted</h2>
+<p>Markdown is plain text with formatting syntax designed so that it can be converted to HTML and many other formats. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.</p>
+</section>
+<section id="learn-more" class="level2">
+<h2>Learn more</h2>
+<ul>
+<li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown Cheatsheet</a></li>
+<li><a href="https://help.github.com/articles/markdown-basics/">Markdown Basics</a></li>
+<li><a href="http://markdowntutorial.com/">Markdown Tutorial</a></li>
+</ul>
+</section>
+<section id="what-software-is-needed" class="level2">
+<h2>What software is needed?</h2>
+<ul>
+<li>Markdown may be created using any plain text editor. If you are doing a lot a plain text work, a good text editor is a must.</li>
+<li>My favorite is <a href="https://atom.io/">Atom</a>.</li>
+</ul>
+</section>
+</section>
+<section id="pandoc" class="level1">
+<h1>Pandoc</h1>
+<section id="what-is-it" class="level2">
+<h2>What is it?</h2>
+<ul>
+<li>Universal document converter</li>
+<li>Convert markdown documents (and others) to many other formats</li>
+<li><a href="http://pandoc.org/">Pandoc</a></li>
+</ul>
+</section>
+<section id="installation" class="level2">
+<h2>Installation</h2>
+<p>There is a download file just for you at: <a href="http://pandoc.org/installing.html">Pandoc Install</a></p>
+<ul>
+<li>Windows</li>
+<li>OSX</li>
+<li>Linux</li>
+<li>BSD</li>
+<li>Source</li>
+</ul>
+</section>
+<section id="output-to-pdf" class="level2">
+<h2>Output to PDF</h2>
+<p>Output to PDF requires LaTeX.</p>
+<ul>
+<li>Windows: <a href="http://miktex.org/download">MiKTeX</a></li>
+<li>OSX: <a href="http://www.tug.org/mactex/morepackages.html">Basic TeX</a></li>
+<li>Linux: <a href="http://www.tug.org/texlive/">TeX Live</a>
+<ul>
+<li><code>apt-get install texlive</code></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="run-pandoc" class="level1">
+<h1>Run Pandoc</h1>
+<section id="command-line" class="level2">
+<h2>Command line</h2>
+<p>Pandoc is run from the command line. This is not a tutorial on how to use the command line. If you are unsure of your command line skills, try one of the many excellent tutorials available though a <a href="https://www.google.com/search?q=comand%20line%20tutorial">Google search</a>.</p>
+<p>I happen to be running this via Windows PowerShell but the commands are identical to a Linux BASH.</p>
+</section>
+<section id="commands-to-create-this-slideshow-are" class="level2">
+<h2>Commands to create this slideshow are:</h2>
+<pre><code>cd my_working_directory
+pandoc -t html5 --template=templatecdn_revealjs.html --standalone --section-divs  pandoc_reveal.md -o pandoc_reveal.html</code></pre>
+<p>Pandoc has many options, see <code>pandoc --help</code>.</p>
+</section>
+<section id="lets-break-it-down" class="level2">
+<h2>Let's break it down</h2>
+<ul>
+<li><p><strong>cd my_working_directory</strong>: Change directory to my_working_directory. my_working_directory is where my files and templates are stored.</p></li>
+<li><p><strong>pandoc arguments</strong>: Calls Pandoc with the specified arguments</p></li>
+</ul>
+</section>
+<section id="arguments" class="level2">
+<h2>Arguments</h2>
+<ul>
+<li><strong>-t FORMAT</strong>: Specify the output FORMAT as HTML5</li>
+<li><strong>--template=FILE</strong>: Selects the conversion template as templatecdn_revealjs.html. (More on this later)</li>
+<li><strong>--standalone</strong>: Produce output with an appropriate header and footer and not just a snippet</li>
+</ul>
+</section>
+<section id="more-arguments" class="level2">
+<h2>More arguments</h2>
+<ul>
+<li><strong>--section-divs</strong>: For HTML5 it wraps sections in <code>&lt;section&gt;</code> tags</li>
+<li><strong>pandoc_reveal.md</strong>: This is the input file. Its format is automatically determined from the file extension</li>
+<li><strong>-o FILE</strong>: Write output to the FILE pandoc_reveal.html</li>
+</ul>
+</section>
+</section>
+<section id="in-the-evening" class="level1">
+<h1>In the evening</h1>
+<section id="dinner" class="level2">
+<h2>Dinner</h2>
+<ul>
+<li>Eat spaghetti</li>
+<li>Drink wine</li>
+</ul>
+<hr />
+</section>
+<section id="me" class="level2">
+<h2>Me</h2>
+<figure>
+<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c141.41.517.517/s160x160/405574_10200638271711285_451453026_n.jpg?oh=dffa9f39bd97ecda2fe3e72cc380e74c&amp;oe=561D0596&amp;__gda__=1446282714_cd33706f6c028055f2251032b4e4ba2c" alt="Gary Dalton" /><figcaption>Gary Dalton</figcaption>
+</figure>
+</section>
+<section id="going-to-sleep" class="level2">
+<h2>Going to sleep</h2>
+<ul>
+<li>Get in bed</li>
+<li>Count sheep</li>
+</ul>
+</section>
+</section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/head.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.js"></script>
+
+<script>
+  Reveal.initialize({
+  // Full list of configuration options available here:
+  // https://github.com/hakimel/reveal.js#configuration
+    controls: true,
+    progress: true,
+    slideNumber: true,
+    history: false,
+    keyboard: true,
+    overview: true,
+    center: false,
+    touch: true,
+    loop: false,
+    rtl: false,
+    fragments: true,
+    embedded: false,
+    help: true,
+    autoSlide: 0,
+    autoSlideStoppable: true,
+    mouseWheel: false,
+    hideAddressBar: true,
+    previewLinks: false,
+    transitionSpeed: 'default', // default/fast/slow
+    backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+    viewDistance: 3,
+    parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+    parallaxBackgroundSize: '2100px 900px',
+    parallaxBackgroundHorizontal: '200',
+    parallaxBackgroundVertical: '50',
+
+  // available themes are in /css/theme
+      theme: Reveal.getQueryHash().theme || 'night',
+  
+  // none/fade/slide/convex/concave/zoom
+      transition: Reveal.getQueryHash().transition || 'concave',
+  
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+    { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+    // { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+  });
+
+</script>
+
+</body>
+</html>
