@@ -1,38 +1,33 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
+    <title>Pandoc and Reveal</title>
+    <meta name="description" content="Pandoc and Reveal">
 
-<title>Pandoc and Reveal</title>
+          <meta name="author" content="Gary Dalton" />
+    
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-<meta name="description" content="Pandoc and Reveal">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/reveal.min.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/night.min.css" id="theme">
+    
+    <!-- For syntax highlighting -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/css/zenburn.min.css">
+    
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/print/' +
+        ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
+        '.css" type="text/css" media="print">' );
+    </script>
 
-  <meta name="author" content="Gary Dalton" />
-
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/reveal.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/theme/night.css" id="theme">
-
-
-<!-- For syntax highlighting -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/css/zenburn.css">
-
-
-<!-- If the query includes 'print-pdf', use the PDF print sheet -->
-<script>
-  document.write( '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/css/print/' +
-    ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) +
-    '.css" type="text/css" media="print">' );
-</script>
-
-<!--[if lt IE 9]>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/html5shiv.js"></script>
-<![endif]-->
-</head>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/html5shiv.js"></script>
+    <![endif]-->
+    </head>
 
 <body>
 
@@ -46,7 +41,7 @@
 <h2>Slideshows from Markdown</h2>
 <h3>Gary Dalton</h3>
 <p>
-<h4>8 July 2015</h4>
+<h4>10 July 2015</h4>
 </p>
 
 <a href="https://github.com/gary-dalton/gary-dalton.github.io/tree/master">
@@ -60,7 +55,7 @@ Fork on GitHub
 <ol type="1">
 <li>This slideshow is written in Markdown, a plain text format.
 <ul>
-<li><a href="https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/pandoc_reveal.md">view the slideshow in markdown</a>.</li>
+<li><a href="https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/pandoc_reveal.md">view the slideshow in markdown</a></li>
 </ul></li>
 <li>Converted into an HTML5 document using Pandoc.</li>
 <li>Pandoc uses a template to convert the Markdown to HTML5.</li>
@@ -87,7 +82,7 @@ Fork on GitHub
 <h2>What software is needed?</h2>
 <ul>
 <li>Markdown may be created using any plain text editor. If you are doing a lot a plain text work, a good text editor is a must.</li>
-<li>My favorite is <a href="https://atom.io/">Atom</a>.</li>
+<li>My favorite is the free and open source <a href="https://atom.io/">Atom</a>.</li>
 </ul>
 </section>
 </section>
@@ -162,41 +157,84 @@ pandoc -t html5 --template=templatecdn_revealjs.html --standalone --section-divs
 </ul>
 </section>
 </section>
-<section id="in-the-evening" class="level1">
-<h1>In the evening</h1>
-<section id="dinner" class="level2">
-<h2>Dinner</h2>
-<ul>
-<li>Eat spaghetti</li>
-<li>Drink wine</li>
-</ul>
-<hr />
+<section id="reveal.js" class="level1">
+<h1>Reveal.js</h1>
+<section id="display-html-slideshows" class="level2">
+<h2>Display HTML slideshows</h2>
+<p>Create excellent presentation slides using HTML. The easiest way to understand what it does is to see the demonstration.</p>
+<p><a href="http://lab.hakim.se/reveal-js/">REVEAL.JS demonstration</a></p>
 </section>
-<section id="me" class="level2">
-<h2>Me</h2>
-<figure>
-<img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xfa1/v/t1.0-1/c141.41.517.517/s160x160/405574_10200638271711285_451453026_n.jpg?oh=dffa9f39bd97ecda2fe3e72cc380e74c&amp;oe=561D0596&amp;__gda__=1446282714_cd33706f6c028055f2251032b4e4ba2c" alt="Gary Dalton" /><figcaption>Gary Dalton</figcaption>
-</figure>
-</section>
-<section id="going-to-sleep" class="level2">
-<h2>Going to sleep</h2>
+<section id="how-to-use" class="level2">
+<h2>How to use?</h2>
 <ul>
-<li>Get in bed</li>
-<li>Count sheep</li>
+<li>Fork it from GitHub to have a locally run version</li>
+<li>Use content delivery network (CDN) files for Internet version
+<ul>
+<li>I typically use CDN</li>
+<li><a href="https://cdnjs.com/libraries/reveal.js">CDN links</a></li>
+</ul></li>
+<li>Set your template to either local or CDN files</li>
 </ul>
 </section>
+</section>
+<section id="the-template" class="level1">
+<h1>The Template</h1>
+<section id="default" class="level2">
+<h2>Default</h2>
+<p>Pandoc comes with a default reveal.js template, called with the output FORMAT set to revealjs. Example:</p>
+<pre><code>pandoc -t revealjs --standalone input.md -o output.html</code></pre>
+</section>
+<section id="custom" class="level2">
+<h2>Custom</h2>
+<p>I prefer to use my own custom template. This template is available in the repository as <a href="https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/template_revealjs.html">template_revealjs.html</a>.</p>
+<p>Why? The custom template adds many new variables, i.e. the GitHub variables, outputs HTML5, and increases the configuration coverage for reveal.js.</p>
+<pre><code>pandoc -t html5 --standalone --section-divs --template=template_revealjs.html pandoc_reveal.md -o pandoc_reveal.html</code></pre>
+</section>
+<section id="usage" class="level2">
+<h2>Usage</h2>
+<p>The custom template is intended for use with an appropriate markdown file that includes YAML variables.</p>
+<p>Fork <a href="https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/template_md_reveal.md">template_md_reveal.md</a> as your starting point markdown file.</p>
+</section>
+</section>
+<section id="yaml" class="level1">
+<h1>YAML</h1>
+<section id="section-1" class="level2">
+<h2></h2>
+<p>YAML is basically a variable: value format that may be used to set configuration values for pandoc and reveal.js.</p>
+<pre><code>---
+# THIS IS YAML
+title: Main Title
+subtitle: Subtitle
+author: Author Name
+date: 10 July 2015
+license: Apache License, Version 2.0
+---</code></pre>
+</section>
+<section id="section-2" class="level2">
+<h2></h2>
+<p>There may be more than one YAML block in a document. Each YAML block must start and end with 3 dashes. See <a href="http://pandoc.org/README.html#metadata-blocks">Extension: yaml_metadata_block</a>. Each variable that you set in YAML is available for use in the template.</p>
+</section>
+<section id="usage-1" class="level2">
+<h2>Usage</h2>
+<p>My <em>template_md_reveal.md</em> uses 2 YAML block, one at the top and one at the botton of the file. The top YAML sets some generic variables. The bottom YAML sets configuration values for reveal.js.</p>
+</section>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>Create easy to maintain, share, and edit markdown files and turn them into feature-rich slideshows using pandoc and reveal.js.</p>
 </section>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/lib/js/head.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0/js/reveal.min.js"></script>
 
 <script>
   Reveal.initialize({
   // Full list of configuration options available here:
   // https://github.com/hakimel/reveal.js#configuration
+  // let's set some configuration options from YAML
     controls: true,
-    progress: true,
+    progress: false,
     slideNumber: true,
     history: false,
     keyboard: true,
@@ -205,27 +243,28 @@ pandoc -t html5 --template=templatecdn_revealjs.html --standalone --section-divs
     touch: true,
     loop: false,
     rtl: false,
-    fragments: true,
+    fragments: false,
     embedded: false,
     help: true,
-    autoSlide: 0,
-    autoSlideStoppable: true,
+            autoSlide: 0,
+        autoSlideStoppable: true,
     mouseWheel: false,
     hideAddressBar: true,
     previewLinks: false,
-    transitionSpeed: 'default', // default/fast/slow
-    backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
-    viewDistance: 3,
-    parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-    parallaxBackgroundSize: '2100px 900px',
-    parallaxBackgroundHorizontal: '200',
-    parallaxBackgroundVertical: '50',
+    transitionSpeed: 'default',
+    backgroundTransition: 'none',
+    viewDistance: '3',
 
+            parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        parallaxBackgroundSize: '2100px 900px',
+        parallaxBackgroundHorizontal: '200',
+        parallaxBackgroundVertical: '50',
+    
   // available themes are in /css/theme
-      theme: Reveal.getQueryHash().theme || 'night',
+      theme: Reveal.getQueryHash().theme || 'black',
   
   // none/fade/slide/convex/concave/zoom
-      transition: Reveal.getQueryHash().transition || 'concave',
+      transition: Reveal.getQueryHash().transition || 'none',
   
   // Optional libraries used to extend on reveal.js
   dependencies: [

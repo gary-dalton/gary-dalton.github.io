@@ -1,15 +1,15 @@
 ---
-title: Pandoc and Reveal
-subtitle: Slideshows from Markdown
-author: Gary Dalton
+title: Main Title
+subtitle: Subtitle
+author: Author Name
 date: 10 July 2015
 license: Apache License, Version 2.0
 github:
-  user: gary-dalton
-  repo: gary-dalton.github.io
-  branch: "master"
+  user:
+  repo:
+  branch:
 pandoc: pandoc -t html5 --standalone --section-divs --template=template_revealjs.html pandoc_reveal.md -o pandoc_reveal.html
-tags: pandoc, revealjs, markdown, howto
+tags: pandoc, revealjs, markdown
 ---
 
 #
@@ -126,46 +126,18 @@ Pandoc comes with a default reveal.js template, called with the output FORMAT se
 
 ## Custom
 
-I prefer to use my own custom template. This template is available in the repository as [template_revealjs.html](https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/template_revealjs.html).
+I prefer to use my own custom template. This template is available in the repository as *template_revealjs.html*.
 
-Why? The custom template adds many new variables, i.e. the GitHub variables, outputs HTML5, and increases the configuration coverage for reveal.js.
+Why? The custom template add many new variables, i.e. the GitHub variables, outputs HTML5, and increases the configuration coverage for reveal.js.
 
     pandoc -t html5 --standalone --section-divs --template=template_revealjs.html pandoc_reveal.md -o pandoc_reveal.html
 
 ## Usage
 
-The custom template is intended for use with an appropriate markdown file that includes YAML variables.
-
-Fork [template_md_reveal.md](https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/template_md_reveal.md) as your starting point markdown file.
+The template is intended for use with an appropriate markdown file that includes YAML variables.
 
 # YAML
 
-##
-
-YAML is basically a variable: value format that may be used to set configuration values for pandoc and reveal.js.
-
-~~~
----
-# THIS IS YAML
-title: Main Title
-subtitle: Subtitle
-author: Author Name
-date: 10 July 2015
-license: Apache License, Version 2.0
----
-~~~
-
-##
-
-There may be more than one YAML block in a document. Each YAML block must start and end with 3 dashes. See [Extension: yaml_metadata_block](http://pandoc.org/README.html#metadata-blocks). Each variable that you set in YAML is available for use in the template.
-
-## Usage
-
-My *template_md_reveal.md* uses 2 YAML block, one at the top and one at the botton of the file. The top YAML sets some generic variables. The bottom YAML sets configuration values for reveal.js.
-
-# Conclusion
-
-Create easy to maintain, share, and edit markdown files and turn them into feature-rich slideshows using pandoc and reveal.js.
 
 ---
 # OPTIONS FOR REVEAL.JS TEMPLATE
@@ -176,11 +148,11 @@ reveal:
 
     # RECOMMENDED
     # beige/black/blood/league/moon/night/serif/simple/sky/solarized/white
-    theme: night
+    theme: black
     # none/fade/slide/convex/concave/zoom
     transition: concave
     # Use minified js and css. Make certain minified versions are available
-    minified: true
+    minified: false
 
     # OPTIONAL
     controls: true
@@ -205,9 +177,9 @@ reveal:
     transitionSpeed: 'default' # default/fast/slow
     backgroundTransition: 'none' # none/fade/slide/convex/concave/zoom
     viewDistance: '3'
-    parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg' # false or image path
-    parallaxBackgroundSize: '2100px 900px'
-    parallaxBackgroundHorizontal: '200'
-    parallaxBackgroundVertical: '50'
+    parallaxBackgroundImage: false # false or image path
+    parallaxBackgroundSize: ''
+    parallaxBackgroundHorizontal: ''
+    parallaxBackgroundVertical: ''
 
 ---
