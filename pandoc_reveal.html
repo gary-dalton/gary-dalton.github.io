@@ -52,17 +52,34 @@ Fork on GitHub
 
 <section id="section" class="level1">
 <h1></h1>
+<section id="section-1" class="level2">
+<h2></h2>
 <ol type="1">
 <li>This slideshow is written in Markdown, a plain text format.
 <ul>
 <li><a href="https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/pandoc_reveal.md">view the slideshow in markdown</a></li>
 </ul></li>
-<li>Converted into an HTML5 document using Pandoc.</li>
+<li>Converted into an HTML5, revealjs document using Pandoc.</li>
+</ol>
+<p>Yes, it really is that easy.</p>
+</section>
+<section id="arent-some-steps-missing" class="level2">
+<h2>Aren't some steps missing?</h2>
+<p>Everything else just happens once you have it set up.</p>
+<ul>
 <li>Pandoc uses a template to convert the Markdown to HTML5.</li>
 <li>The HTML5 document is automatically formatted for use with and linked to reveal.js by the template.</li>
 <li>Reveal is a feature-rich javascript library that displays the slideshow.</li>
+</ul>
+</section>
+</section>
+<section id="advantages" class="level1">
+<h1>Advantages</h1>
+<ol type="1">
+<li>Plain text files are universally editable, easy to version control, and flexible for many uses.</li>
+<li>The slideshow is in HTML5 using javascript for usage anywhere with a browser. No special software is needed.</li>
+<li>Widely used technology allows one to focus on the content and less on the formatting</li>
 </ol>
-<p>Yes, it really is that easy.</p>
 </section>
 <section id="markdown" class="level1">
 <h1>Markdown</h1>
@@ -198,7 +215,7 @@ pandoc -t html5 --template=templatecdn_revealjs.html --standalone --section-divs
 </section>
 <section id="yaml" class="level1">
 <h1>YAML</h1>
-<section id="section-1" class="level2">
+<section id="section-2" class="level2">
 <h2></h2>
 <p>YAML is basically a variable: value format that may be used to set configuration values for pandoc and reveal.js.</p>
 <pre><code>---
@@ -210,7 +227,7 @@ date: 10 July 2015
 license: Apache License, Version 2.0
 ---</code></pre>
 </section>
-<section id="section-2" class="level2">
+<section id="section-3" class="level2">
 <h2></h2>
 <p>There may be more than one YAML block in a document. Each YAML block must start and end with 3 dashes. See <a href="http://pandoc.org/README.html#metadata-blocks">Extension: yaml_metadata_block</a>. Each variable that you set in YAML is available for use in the template.</p>
 </section>

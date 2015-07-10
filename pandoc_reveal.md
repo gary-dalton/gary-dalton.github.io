@@ -14,14 +14,27 @@ tags: pandoc, revealjs, markdown, howto
 
 #
 
+##
+
 1. This slideshow is written in Markdown, a plain text format.
     - [view the slideshow in markdown](https://raw.githubusercontent.com/gary-dalton/gary-dalton.github.io/master/pandoc_reveal.md)
-2. Converted into an HTML5 document using Pandoc.
-3. Pandoc uses a template to convert the Markdown to HTML5.
-4. The HTML5 document is automatically formatted for use with and linked to reveal.js by the template.
-5. Reveal is a feature-rich javascript library that displays the slideshow.
+2. Converted into an HTML5, revealjs document using Pandoc.
 
 Yes, it really is that easy.
+
+## Aren't some steps missing?
+
+Everything else just happens once you have it set up.
+
+- Pandoc uses a template to convert the Markdown to HTML5.
+- The HTML5 document is automatically formatted for use with and linked to reveal.js by the template.
+- Reveal is a feature-rich javascript library that displays the slideshow.
+
+# Advantages
+
+1. Plain text files are universally editable, easy to version control, and flexible for many uses.
+2. The slideshow is in HTML5 using javascript for usage anywhere with a browser. No special software is needed.
+3. Widely used technology allows one to focus on the content and less on the formatting
 
 # Markdown
 
