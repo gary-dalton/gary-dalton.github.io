@@ -174,7 +174,7 @@ There may be more than one YAML block in a document. Each YAML block must start 
 
 ## Usage
 
-My *template_md_reveal.md* uses 2 YAML block, one at the top and one at the botton of the file. The top YAML sets some generic variables. The bottom YAML sets configuration values for reveal.js.
+My *template_md_reveal.md* uses 2 YAML blocks, one at the top and one at the bottom of the file. The top YAML sets some generic variables. The bottom YAML sets configuration values for reveal.js.
 
 # Conclusion
 
