@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maker on Intellamech</title>
+    <link>http://www.intellamech.com/categories/maker/</link>
+    <description>Recent content in Maker on Intellamech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Apr 2018 13:47:21 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.intellamech.com/categories/maker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Maker</title>
+      <link>http://www.intellamech.com/posts/maker/</link>
+      <pubDate>Fri, 20 Apr 2018 13:47:21 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/maker/</guid>
+      <description>Right now, most of the Maker pages are under the Raspberry Pi project pages.
+Raspberry Pi Projects and Documents</description>
+    </item>
+    
+  </channel>
+</rss>

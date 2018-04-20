@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandoc Revealjs Markdown Howto on Intellamech</title>
+    <link>http://www.intellamech.com/tags/pandoc-revealjs-markdown-howto/</link>
+    <description>Recent content in Pandoc Revealjs Markdown Howto on Intellamech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.intellamech.com/tags/pandoc-revealjs-markdown-howto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pandoc and Reveal</title>
+      <link>http://www.intellamech.com/draft/pandoc_reveal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/draft/pandoc_reveal/</guid>
+      <description>#
+##
+ This slideshow is written in Markdown, a plain text format.  view the slideshow in markdown  Converted into an HTML5, revealjs document using Pandoc.  Yes, it really is that easy.
+Aren&amp;rsquo;t some steps missing? Everything else just happens once you have it set up.
+ Pandoc uses a template to convert the Markdown to HTML5. The HTML5 document is automatically formatted for use with and linked to reveal.</description>
+    </item>
+    
+  </channel>
+</rss>

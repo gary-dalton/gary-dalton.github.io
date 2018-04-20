@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intellamech</title>
+    <link>http://www.intellamech.com/</link>
+    <description>Recent content on Intellamech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Apr 2018 13:48:10 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.intellamech.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Support</title>
+      <link>http://www.intellamech.com/posts/support/</link>
+      <pubDate>Fri, 20 Apr 2018 13:48:10 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/support/</guid>
+      <description>The support pages are currently maintained at:
+My Support for GGIS</description>
+    </item>
+    
+    <item>
+      <title>Other Projects</title>
+      <link>http://www.intellamech.com/posts/other/</link>
+      <pubDate>Fri, 20 Apr 2018 13:47:53 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/other/</guid>
+      <description> Pandoc and Reveal Slideshows from Markdown  Demonstration and instructions  Code7 Slideshows and other resources that extend the code.org 20 hour courses.  Project page Stage 4 Stage 6 Stage 8 Stage 10 Stage 12  </description>
+    </item>
+    
+    <item>
+      <title>Maker</title>
+      <link>http://www.intellamech.com/posts/maker/</link>
+      <pubDate>Fri, 20 Apr 2018 13:47:21 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/maker/</guid>
+      <description>Right now, most of the Maker pages are under the Raspberry Pi project pages.
+Raspberry Pi Projects and Documents</description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>http://www.intellamech.com/posts/datascience/</link>
+      <pubDate>Fri, 20 Apr 2018 13:46:42 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/datascience/</guid>
+      <description>Some words</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>http://www.intellamech.com/posts/deep/</link>
+      <pubDate>Fri, 20 Apr 2018 13:45:51 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/deep/</guid>
+      <description>Some words</description>
+    </item>
+    
+    <item>
+      <title>Aliquam</title>
+      <link>http://www.intellamech.com/blogs/aliquam/</link>
+      <pubDate>Tue, 31 Oct 2017 22:42:51 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/blogs/aliquam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tempus</title>
+      <link>http://www.intellamech.com/blogs/tempus/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:13 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/blogs/tempus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Magna</title>
+      <link>http://www.intellamech.com/blogs/magna/</link>
+      <pubDate>Tue, 31 Oct 2017 22:26:09 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/blogs/magna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ipsum</title>
+      <link>http://www.intellamech.com/blogs/ipsum/</link>
+      <pubDate>Tue, 31 Oct 2017 21:28:43 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/blogs/ipsum/</guid>
+      <description>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.intellamech.com/errata/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/errata/license/</guid>
+      <description>Copyright 2015-2018 Gary Dalton
+Licensed under the Apache License, Version 2.0 (the &amp;ldquo;License&amp;rdquo;); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &amp;ldquo;AS IS&amp;rdquo; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.intellamech.com/pandoc/pandoc_reveal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/pandoc/pandoc_reveal/</guid>
+      <description>Pandoc and Revealdocument.write( &#39;&#39; );Pandoc and RevealSlideshows from MarkdownGary Dalton10 July 2015Fork on GitHubThis slideshow is written in Markdown, a plain text format.view the slideshow in markdownConverted into an HTML5, revealjs document using Pandoc.Yes, it really is that easy.
+Aren&#39;t some steps missing?Everything else just happens once you have it set up.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.intellamech.com/pandoc/template_revealjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/pandoc/template_revealjs/</guid>
+      <description>$title$$for(author)$$endfor$$if(reveal.theme)$$else$$endif$$if(highlight-style)$$else$$endif$document.write( &#39;&#39; );$for(header-includes)$$header-includes$$endfor$$for(include-before)$$include-before$$endfor$$title$$if(subtitle)$$subtitle$$endif$$for(author)$$author$$endfor$$date$$if(github.user)$$if(github.logo)$$else$Fork on GitHub$endif$$endif$$if(toc)$Outline$toc$$endif$$body$Reveal.initialize({// Full list of configuration options available here:// https://github.com/hakimel/reveal.js#configuration// let&#39;s set some configuration options from YAMLcontrols: $if(reveal.</description>
+    </item>
+    
+    <item>
+      <title>Gary Dalton</title>
+      <link>http://www.intellamech.com/posts/about_gary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/about_gary/</guid>
+      <description>I have been coding for many years, mostly in the scientific programming arena. My currently preferred language is Python.</description>
+    </item>
+    
+    <item>
+      <title>Main Title</title>
+      <link>http://www.intellamech.com/draft/template_md_reveal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/draft/template_md_reveal/</guid>
+      <description>#
+ This slideshow is written in Markdown, a plain text format.  view the slideshow in markdown  Converted into an HTML5 document using Pandoc. Pandoc uses a template to convert the Markdown to HTML5. The HTML5 document is automatically formatted for use with and linked to reveal.js by the template. Reveal is a feature-rich javascript library that displays the slideshow.  Yes, it really is that easy.</description>
+    </item>
+    
+    <item>
+      <title>Pandoc and Reveal</title>
+      <link>http://www.intellamech.com/draft/pandoc_reveal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/draft/pandoc_reveal/</guid>
+      <description>#
+##
+ This slideshow is written in Markdown, a plain text format.  view the slideshow in markdown  Converted into an HTML5, revealjs document using Pandoc.  Yes, it really is that easy.
+Aren&amp;rsquo;t some steps missing? Everything else just happens once you have it set up.
+ Pandoc uses a template to convert the Markdown to HTML5. The HTML5 document is automatically formatted for use with and linked to reveal.</description>
+    </item>
+    
+    <item>
+      <title>Project Template</title>
+      <link>http://www.intellamech.com/draft/template_project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/draft/template_project/</guid>
+      <description>Project name Introduction Give your users an overview of the purpose and function of your project in a paragraph or two (at most). Because sometimes a picture is worth a thousand words, include screenshots when appropriate.
+Usage Provide a short code snippet (if applicable), or short usage instructions
+Contributing Give instructions on how to participate in your project patches.
+Help Explain which communication channels are available to request help. Communication channels with a proven track record are mailing lists, IRC channels, and forums.</description>
+    </item>
+    
+    <item>
+      <title>Rooting the Galaxy S2</title>
+      <link>http://www.intellamech.com/draft/rooting_galaxy_s2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/draft/rooting_galaxy_s2/</guid>
+      <description> References  TUTORIAL How To Root the Sprint Galaxy S2 SPH-D710 How To Root the Sprint Galaxy S2 (SPH-D710) RWilco Files Samsung Epic 4G Touch guide to rooting How To Install A Custom Rom For Android Phones   </description>
+    </item>
+    
+  </channel>
+</rss>

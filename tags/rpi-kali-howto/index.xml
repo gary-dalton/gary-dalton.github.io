@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rpi Kali Howto on Intellamech</title>
+    <link>http://www.intellamech.com/tags/rpi-kali-howto/</link>
+    <description>Recent content in Rpi Kali Howto on Intellamech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.intellamech.com/tags/rpi-kali-howto/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rooting the Galaxy S2</title>
+      <link>http://www.intellamech.com/draft/rooting_galaxy_s2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/draft/rooting_galaxy_s2/</guid>
+      <description> References  TUTORIAL How To Root the Sprint Galaxy S2 SPH-D710 How To Root the Sprint Galaxy S2 (SPH-D710) RWilco Files Samsung Epic 4G Touch guide to rooting How To Install A Custom Rom For Android Phones   </description>
+    </item>
+    
+  </channel>
+</rss>

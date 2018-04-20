@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pandocs on Intellamech</title>
+    <link>http://www.intellamech.com/pandoc/</link>
+    <description>Recent content in Pandocs on Intellamech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://www.intellamech.com/pandoc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://www.intellamech.com/pandoc/pandoc_reveal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/pandoc/pandoc_reveal/</guid>
+      <description>Pandoc and Revealdocument.write( &#39;&#39; );Pandoc and RevealSlideshows from MarkdownGary Dalton10 July 2015Fork on GitHubThis slideshow is written in Markdown, a plain text format.view the slideshow in markdownConverted into an HTML5, revealjs document using Pandoc.Yes, it really is that easy.
+Aren&#39;t some steps missing?Everything else just happens once you have it set up.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://www.intellamech.com/pandoc/template_revealjs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/pandoc/template_revealjs/</guid>
+      <description>$title$$for(author)$$endfor$$if(reveal.theme)$$else$$endif$$if(highlight-style)$$else$$endif$document.write( &#39;&#39; );$for(header-includes)$$header-includes$$endfor$$for(include-before)$$include-before$$endfor$$title$$if(subtitle)$$subtitle$$endif$$for(author)$$author$$endfor$$date$$if(github.user)$$if(github.logo)$$else$Fork on GitHub$endif$$endif$$if(toc)$Outline$toc$$endif$$body$Reveal.initialize({// Full list of configuration options available here:// https://github.com/hakimel/reveal.js#configuration// let&#39;s set some configuration options from YAMLcontrols: $if(reveal.</description>
+    </item>
+    
+  </channel>
+</rss>

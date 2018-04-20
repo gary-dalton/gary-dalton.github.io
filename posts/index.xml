@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Pages and Overview on Intellamech</title>
+    <link>http://www.intellamech.com/posts/</link>
+    <description>Recent content in Project Pages and Overview on Intellamech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Apr 2018 13:48:10 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.intellamech.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Support</title>
+      <link>http://www.intellamech.com/posts/support/</link>
+      <pubDate>Fri, 20 Apr 2018 13:48:10 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/support/</guid>
+      <description>The support pages are currently maintained at:
+My Support for GGIS</description>
+    </item>
+    
+    <item>
+      <title>Other Projects</title>
+      <link>http://www.intellamech.com/posts/other/</link>
+      <pubDate>Fri, 20 Apr 2018 13:47:53 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/other/</guid>
+      <description> Pandoc and Reveal Slideshows from Markdown  Demonstration and instructions  Code7 Slideshows and other resources that extend the code.org 20 hour courses.  Project page Stage 4 Stage 6 Stage 8 Stage 10 Stage 12  </description>
+    </item>
+    
+    <item>
+      <title>Maker</title>
+      <link>http://www.intellamech.com/posts/maker/</link>
+      <pubDate>Fri, 20 Apr 2018 13:47:21 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/maker/</guid>
+      <description>Right now, most of the Maker pages are under the Raspberry Pi project pages.
+Raspberry Pi Projects and Documents</description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>http://www.intellamech.com/posts/datascience/</link>
+      <pubDate>Fri, 20 Apr 2018 13:46:42 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/datascience/</guid>
+      <description>Some words</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>http://www.intellamech.com/posts/deep/</link>
+      <pubDate>Fri, 20 Apr 2018 13:45:51 -0500</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/deep/</guid>
+      <description>Some words</description>
+    </item>
+    
+    <item>
+      <title>Gary Dalton</title>
+      <link>http://www.intellamech.com/posts/about_gary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.intellamech.com/posts/about_gary/</guid>
+      <description>I have been coding for many years, mostly in the scientific programming arena. My currently preferred language is Python.</description>
+    </item>
+    
+  </channel>
+</rss>
