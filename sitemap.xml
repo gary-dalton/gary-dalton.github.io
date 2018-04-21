@@ -28,28 +28,13 @@
   </url>
   
   <url>
-    <loc>http://www.intellamech.com/blogs/aliquam/</loc>
-    <lastmod>2017-10-31T22:42:51-05:00</lastmod>
+    <loc>http://www.intellamech.com/blogs/deep_vs_science/</loc>
+    <lastmod>2018-04-20T13:45:51-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.intellamech.com/blogs/</loc>
     <lastmod>2017-10-31T22:27:21-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.intellamech.com/blogs/tempus/</loc>
-    <lastmod>2017-10-31T22:26:13-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.intellamech.com/blogs/magna/</loc>
-    <lastmod>2017-10-31T22:26:09-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.intellamech.com/blogs/ipsum/</loc>
-    <lastmod>2017-10-31T21:28:43-05:00</lastmod>
   </url>
   
   <url>
@@ -77,6 +62,12 @@
   </url>
   
   <url>
+    <loc>http://www.intellamech.com/categories/data-science/</loc>
+    <lastmod>2018-04-20T13:45:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.intellamech.com/categories/datascience/</loc>
     <lastmod>2018-04-20T13:46:42-05:00</lastmod>
     <priority>0</priority>
@@ -84,6 +75,12 @@
   
   <url>
     <loc>http://www.intellamech.com/categories/deep/</loc>
+    <lastmod>2018-04-20T13:45:51-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.intellamech.com/categories/deep-learning/</loc>
     <lastmod>2018-04-20T13:45:51-05:00</lastmod>
     <priority>0</priority>
   </url>
