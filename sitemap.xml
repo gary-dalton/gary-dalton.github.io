@@ -18,7 +18,7 @@
   </url>
   
   <url>
-    <loc>http://www.intellamech.com/posts/datascience/</loc>
+    <loc>http://www.intellamech.com/posts/applications/</loc>
     <lastmod>2018-04-20T13:46:42-05:00</lastmod>
   </url>
   
@@ -56,6 +56,12 @@
   </url>
   
   <url>
+    <loc>http://www.intellamech.com/categories/applications/</loc>
+    <lastmod>2018-04-20T13:46:42-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.intellamech.com/categories/</loc>
     <lastmod>2018-04-20T13:48:10-05:00</lastmod>
     <priority>0</priority>
@@ -64,12 +70,6 @@
   <url>
     <loc>http://www.intellamech.com/categories/data-science/</loc>
     <lastmod>2018-04-20T13:45:51-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.intellamech.com/categories/datascience/</loc>
-    <lastmod>2018-04-20T13:46:42-05:00</lastmod>
     <priority>0</priority>
   </url>
   

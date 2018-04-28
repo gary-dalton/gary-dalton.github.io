@@ -41,11 +41,11 @@ Raspberry Pi Projects and Documents</description>
     </item>
     
     <item>
-      <title>Data Science</title>
-      <link>http://www.intellamech.com/posts/datascience/</link>
+      <title>Applications</title>
+      <link>http://www.intellamech.com/posts/applications/</link>
       <pubDate>Fri, 20 Apr 2018 13:46:42 -0500</pubDate>
       
-      <guid>http://www.intellamech.com/posts/datascience/</guid>
+      <guid>http://www.intellamech.com/posts/applications/</guid>
       <description>Some words</description>
     </item>
     
@@ -103,7 +103,7 @@ http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://www.intellamech.com/posts/about_gary/</guid>
-      <description>I have been coding for many years, mostly in the scientific programming arena. My currently preferred language is Python.</description>
+      <description>Focus on implementing secure algorithmic intelligence to create value I worked for many years as an ISP, and full spectrum application design consultant. During this time, I also got involved with some non-profit organizations and went on to leadership positions in them. Since 2015, I have wound down my involvement in the non-profit world, slowly divested ISP services, and vastly improved my machine learning, computer vision, and mechatronic control skills.</description>
     </item>
     
     <item>
